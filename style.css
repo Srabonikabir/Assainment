@@ -169,3 +169,47 @@ font-size: 40px;
 .another-box .new-box:nth-child(3){
     background: #f54967;
 }
+
+
+
+font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+.red-color{
+    color: red;
+}
+.flexible{
+    display: flex;
+    margin: 100px;
+}
+.half-width{
+    width: 50%;
+    padding: 1%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    background-color: orange;
+    color: wheat;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+
+}
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0px;
+}
