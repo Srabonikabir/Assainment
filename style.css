@@ -1,0 +1,171 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #f1f1f1;
+}
+.main-image{
+    position: relative;
+    background: url(images/donation4.jpg);
+    -moz-box-shadow: inset 10px 10px 50px black;
+    -webkit-box-shadow:inset 10px 10px 50px black;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+   
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.container h1{
+    margin: 0;
+    font-size: 30px;
+}
+.container h1 span {
+    border:  6px solid white;
+    padding: 6px 15px;
+    display: inline-block;
+}
+.help{
+    margin: 20px;
+    display: block;
+    font-size: 25px;
+}
+
+.button{
+    color: white;
+    padding: 10px 40px;
+    background: red;
+  text-decoration: none;
+    border-radius: 12px;
+  transition: .6s;
+  text-decoration-color: #f1f1f1;
+}
+
+#donate{
+    background-position: left;
+    margin: 0px;
+    padding: 1%;
+    text-align: center;
+}
+.box {
+    background-color:bisque;
+    width:15%; 
+    display:inline-block;
+     margin:11px 0;
+     border: red;
+      border-radius:6px;
+      height: 100px;
+     } 
+     .text {
+         padding:11px 0; 
+         color:black;
+          font-weight:bold;
+           text-align:center; 
+        }
+        #container
+        { white-space:nowrap; 
+          text-align:center;
+      }
+#icon-box{
+    margin: 0px;
+    padding: 0px;
+}
+.another-box{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+.another-box .new-box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+background: black;
+float: left;
+margin: 15px;
+box-sizing: border-box;
+overflow: hidden;
+border-radius: 10px;
+}
+.another-box .new-box .icon{
+position :absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background: #f00;
+transition: 0.5s;
+z-index: 1;
+}
+.another-box .new-box:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.another-box .new-box .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+.another-box .new-box:hover .icon .fa{
+font-size: 40px;
+
+}
+.another-box .new-box .word{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.another-box .new-box:hover .word{
+    top: 100px;
+}
+
+.another-box .new-box .word h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.another-box .new-box .word p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.another-box .new-box:nth-child(1) .icon{
+    background: #319635;
+}
+
+.another-box .new-box:nth-child(1){
+    background: #4caf50;
+}
+.another-box .new-box:nth-child(2) .icon{
+    background: #d03852;
+}
+.another-box .new-box:nth-child(2){
+    background: #f54967;
+}
+.another-box .new-box:nth-child(3) .icon{
+    background: #23798e;
+}
+.another-box .new-box:nth-child(3){
+    background: #f54967;
+}
