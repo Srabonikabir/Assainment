@@ -213,3 +213,52 @@ h1{
     background-position: right;
     margin: 0px;
 }
+
+.last{
+    text-align: center;
+}
+
+.last-div{
+    padding: 30px;
+}
+.last-one
+{
+    padding: 50Px;
+    background-color: aquamarine;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.box-again{
+    margin: 0;
+    padding: 0;
+
+}
+.last-one .box-again{
+    position: absolute;
+    width: 500px;
+    margin-left: 14%;
+    margin-top: auto;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font: size 20px;
+    box-sizing: border-box;
+    transition: 5s;
+}
+
+input[type="text"]
+{
+    background: #fff;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(172, 163, 175);
+    height: 50px;
+}
